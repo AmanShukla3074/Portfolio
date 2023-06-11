@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+  color: black;
+}
+body {
+  scroll-behavior: smooth;
+  background-color: #eae7dc;
+}
+
+/* ************* NAVIGATION BAR    ************* */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  background-color: #eae7dc;
+  /* background:rgb(19 132 140); */
+}
+nav .left {
+  margin: 0 100px;
+}
+nav .left img{
+    width: 50%;
+}
+
+.name_nav {
+  font-size: 40px;
+}
+nav .right {
+  margin: 0 75px;
+}
+.right ul a {
+  text-decoration: none;
+}
+
+nav .right ul {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+nav .right ul li {
+  list-style: none;
+  margin: 0 20px;
+  font-size: 20px;
+}
+nav .right ul a:hover {
+    font-size: 21px;
+    color: #ff652f;
+    /* color: #e98074; */
+}
+nav .right #menuicon {
+    width: 50px;
+}
+
+/* *************    FOOTER    ************* */
+
+footer {
+  background: #d8c3a5;
+  /* background: #8e8d8a; */
+}
+
+.footcol1 {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.footend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+/* 
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+.rightfoot {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  align-items: center;
+  margin: 35px 50px;
+}
+
+.footer-logo img {
+  width: 35px;
+}

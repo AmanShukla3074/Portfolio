@@ -1,0 +1,206 @@
+@media only screen and (max-width:1200px) {
+    nav .left {
+        margin: 0px 40px;
+    }
+    
+    .name_nav{
+        font-size: 39px;
+    }
+
+    .contact-logo{
+        margin: 0 20px;
+    }
+    .my-contact {
+        display: flex;
+        justify-content: space-between;
+        width: 27%;
+        align-items: center;
+        margin: 0 auto 40px;
+    }
+    .rightfoot {
+        display: flex;
+        justify-content: space-between;
+        width: 13%;
+        align-items: center;
+        margin: 35px 50px;
+    } 
+    
+    .service-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        margin: auto;
+    }
+}
+
+#menuicon{
+    display: none;
+}
+
+#closeicon{
+    display: none;
+}
+@media only screen and (max-width:768px) {
+    /* body{
+        overflow-x: hidden;
+        max-width: 768px;
+    }
+    *{
+        overflow-x: hidden;
+        max-width: 768px;
+    } */
+    
+    
+    .leftsec {
+        width: 35%;
+        margin: 152px 30px;
+        font-size: 25px;
+    }
+    
+    .rightsec {
+        width: 30%;
+        /* margin-right: 210px; */
+    }
+    #menuicon{
+        display: block;
+        width: 65px;
+        margin-top: 5px;
+    }
+    
+    #closeicon{
+        display: block;
+        width: 50px;
+    }
+
+    nav .right ul{
+        background:#ff652f;
+        position: fixed;
+        top: 0;
+        right: -400px;
+        width: 400px;
+        height: 100vh;
+        padding-top: 50px;
+        flex-flow: column;
+        z-index: 2;
+        transition: right 1s;
+    } 
+    
+    nav ul li{
+        display: block;
+        padding: 20px;
+    }
+   
+    
+    nav ul #closeicon{
+        position: absolute;
+        top: 30px;
+        right: 60px;
+        cursor: pointer;
+    }
+
+    nav .right ul {
+        display: flex;
+        justify-content: normal;
+        align-items: center;
+        padding-top: 110px;
+    }
+
+    /* ************ Intro ************ */
+    .intro_h , .intro_sub_h{
+        font-size: 27px;
+    }
+    .intro_desc{
+        font-size: 17px;
+    }
+    /* ************ project ************ */
+    .project_h_m {
+        font-size: 30px;}
+
+    .view-more-btn{
+        font-size: 13px;
+    }
+    .project_info {
+        padding: 10px 0;
+    }
+
+    .project_img {
+        padding: 15px 0;
+        overflow: hidden;
+        margin: 0 5px;
+    }
+
+    .more-info-btn {
+        margin: 15px auto 0;
+    }
+    .my-contact {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        align-items: center;
+        margin: 0 auto 40px;
+    }
+    .footer-logo{
+        margin: 0 10px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:600px){
+    .leftsec{
+        font-size: 20px;
+    }
+    nav .left img {
+        margin-top: 5px;
+        width: 75%;
+    }
+    nav .right {
+        margin: 0px 20px;
+    }
+    nav .right #menuicon {
+        width: 58px;
+        /* position: fixed; */
+        top: 5px;
+        right: 30px;
+    }
+    .intro_h_m{
+        font-size: 40px;
+        margin: 70px 0 5px;
+    }
+    .intro_desc {
+        font-size: 15px;
+    }
+    .intro_sub_h {
+        font-size: 20px;
+    }
+    .project_h_m {
+        font-size: 25px;
+    }
+    .project{
+        flex-flow: column;
+    }
+    .project_info {
+        padding: 10px 0;
+        width: 75%;
+        margin: 20px 0;
+    }
+
+    .service-col{
+        flex-flow: column;
+    }
+    .service{
+        justify-content: center;
+        margin: 0 auto 70px;
+    }
+    .services{
+        margin: 25px;
+    }
+    .contact_h{
+        text-align: center;
+    }
+    .my-contact {
+        width: 50%;
+    }
+}
